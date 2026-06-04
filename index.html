@@ -58,18 +58,22 @@
           en Informatique et Réseaux à l'<strong>ESAIP École d'ingénieur</strong>. Curieuse et motivée, j'aime comprendre comment les technologies 
           fonctionnent, du code au câble réseau.
         </p>
+        <!--
         <p>
           En dehors des cours, je code des petits projets web pour pratiquer le <strong>HTML/CSS</strong> 
           et j'explore le <strong>Python</strong> pour automatiser des tâches du quotidien. 
           J'aime apprendre en faisant.
         </p>
+        -->
         <p>
-          Je recherche une <strong>opportunité de stage</strong> pour mettre en pratique mes compétences 
-          et continuer à progresser dans un environnement professionnel.
+          Ce qui me motive dans mes études, c'est l'idée de pouvoir contribuer à <strong>sécurité des informations</strong> , 
+          un enjeu souvent invisible dans la vie quotidienne, mais fondamental dans un monde de plus en plus connecté.
         </p>
+        
         <div style="margin-top:1.5rem;">
-          <a href="" target="_blank" class="btn btn-primary" style="font-size:0.85rem; padding: 0.7rem 1.4rem;">
-            📄 Télécharger mon CV
+          <a href="https://www.dropbox.com/scl/fi/mvnaesa1ryqredbvmkary/CV-Ang-le-PHAN-STAGE.pdf?rlkey=klcl9we9r56rt7zc97gp1j2vx&st=7s4zgbva&dl=0" 
+          target="_blank" class="btn btn-primary" style="font-size:0.85rem; padding: 0.7rem 1.4rem;">
+            📄 Voir mon CV
           </a>
         </div>
       </div>
@@ -169,7 +173,7 @@
             </div>
           </div>
         </div>
-
+<!--
         <div class="skill-category">
           <div class="skill-cat-title">
             <div class="skill-dot" style="background:#34D399"></div>
@@ -201,7 +205,7 @@
             <div class="skill-bar">
               <div class="skill-fill" data-w="45" style="background: linear-gradient(90deg, #34D399, #059669)"></div>
             </div>
-          </div>
+          </div>-->
         </div>
 
       </div>
@@ -291,33 +295,54 @@
       </div>
 
       <div class="project-card p2">
-        <div class="project-icon">🐍</div>
-        <div class="project-title">Calculatrice Python</div>
+        <div class="project-icon">🛍️</div>
+        <div class="project-title">Boutique en ligne — Projet Web</div>
         <div class="project-desc">
-          Petit programme Python en ligne de commande : opérations arithmétiques, 
-          gestion d'erreurs, boucle interactive. Réalisé en TP de 1ère année.
+          Développement en groupe de 4 d'un site e-commerce complet, à partir d'un cahier des charges imposé. 
+          Le site permet de visualiser des produits, de s'inscrire/connecter et de trouver les lieux de vente.
+          Pages réalisées : accueil, catalogue, fiche produit, lieux de vente, connexion, inscription, FAQ, erreur 404 personnalisée.
+        </div>
+        <div class="t-tags" style="margin-bottom:1rem;">
+          <span class="tag">HTML/CSS</span>
+          <span class="tag">Travail en groupe</span>
+          <span class="tag">Cahier des charges</span>
+          <span class="tag">E-commerce</span>
+        </div>
+        <a href="#" class="project-link">Voir le projet →</a>
+      </div>
+
+      <div class="project-card p3">
+        <div class="project-icon">📚</div>
+        <div class="project-title">App d'apprentissage de vocabulaire</div>
+        <div class="project-desc">
+          Application Python interactive pour apprendre du vocabulaire anglais via des mini-jeux éducatifs. 
+          L'utilisateur peut consulter et enrichir une base de mots, s'entraîner avec des jeux, 
+          et suivre sa progression au fil du temps.
         </div>
         <div class="t-tags" style="margin-bottom:1rem;">
           <span class="tag">Python</span>
-          <span class="tag">CLI</span>
-          <span class="tag">TP Scolaire</span>
+          <span class="tag">Algorithmique</span>
+          <span class="tag">Tkinter</span>
+          <span class="tag">Éducatif</span>
         </div>
         <a href="#" class="project-link">Voir le code →</a>
       </div>
 
-      <div class="project-card p3">
-        <div class="project-icon">🔗</div>
-        <div class="project-title">Simulation réseau LAN</div>
+      <div class="project-card p1">
+        <div class="project-icon" style="background:rgba(251,146,60,0.15);">🏢</div>
+        <div class="project-title">Création d'entreprise — Projet transversal</div>
         <div class="project-desc">
-          Configuration d'un réseau local simulé sur Cisco Packet Tracer avec 
-          routeur, switch et plusieurs hôtes. Adressage IP statique et DHCP.
+          Création d'une entreprise de A à Z en réponse à une problématique identifiée : 
+          analyses PESTEL & SWOT, structure organisationnelle (départements production, marketing, logistique, service client), 
+          prototypes des offres avec coûts de production, et volet financier complet (CA prévisionnel, BFR).
         </div>
         <div class="t-tags" style="margin-bottom:1rem;">
-          <span class="tag">Packet Tracer</span>
-          <span class="tag">TCP/IP</span>
-          <span class="tag">DHCP</span>
+          <span class="tag">PESTEL / SWOT</span>
+          <span class="tag">Business Plan</span>
+          <span class="tag">Finance</span>
+          <span class="tag">Gestion de projet</span>
         </div>
-        <a href="#" class="project-link">Voir les fichiers →</a>
+        <a href="#" class="project-link">Voir le dossier →</a>
       </div>
 
     </div>
@@ -358,7 +383,7 @@
 
     </div>
   </section>
-
+ 
   <!-- CONTACT -->
   <div id="contact">
     <div class="inner">
@@ -367,14 +392,14 @@
       <div class="section-line"></div>
       <div class="contact-grid">
 
-        <form class="contact-form" onsubmit="return false;">
+        <form class="contact-form" action="https://formspree.io/f/xrevgnjd" method="post"">
           <div class="form-group">
             <label>Nom complet</label>
-            <input type="text" placeholder="Marie Dupont" />
+            <input type="text" placeholder="Ex : Marie Dupont" />
           </div>
           <div class="form-group">
             <label>Email</label>
-            <input type="email" placeholder="marie@exemple.fr" />
+            <input type="email" placeholder="Ex : marie@exemple.fr" />
           </div>
           <div class="form-group">
             <label>Message</label>
