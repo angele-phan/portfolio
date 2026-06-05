@@ -530,6 +530,25 @@
 
     .project-link:hover { gap: 0.5rem; }
 
+    /*POUR LES LIENS EN DESSOUS DES PROOJETS*/
+    .doc-btn.blue {
+      background: rgba(96,165,250,0.1);
+      border-color: rgba(96,165,250,0.35);
+      color: #93C5FD;        /* bleu clair */
+    }
+
+    .doc-btn.red {
+      background: rgba(248,113,113,0.1);
+      border-color: rgba(248,113,113,0.35);
+      color: #FCA5A5;        /* rouge/corail */
+    }
+
+    .doc-btn.orange {
+      background: rgba(251,146,60,0.1);
+      border-color: rgba(251,146,60,0.35);
+      color: #FDB887;        /* orange */
+    }
+
     /* ── FORMATION ── */
     .formation-grid {
       display: grid;
